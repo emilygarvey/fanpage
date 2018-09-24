@@ -13,7 +13,13 @@ a {
 .main {
     height: 100%;
 }
-.social-image{
+.social-image {
     width: 30px;
     margin: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    margin: auto;
 }
