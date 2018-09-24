@@ -1,0 +1,42 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.main {
+    height: 100%;
+}
+.social-image {
+    width: 30px;
+    margin: 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: 10px auto;
+}
+.aboutMain {
+    display: flex;
+    width: auto;
+}
+.leftPane {
+    width: 25%;
+}
+.rightPane {
+    width: 75%;
+}
+.main {
+    background-image: url("https://cdn.explara.com/houston-texas20180501172017.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
