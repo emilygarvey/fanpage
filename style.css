@@ -4,12 +4,18 @@ html {
 
 body {
     height: 100%;
+    background-color: navy;
     
 }
 a {
     text-decoration: none;
+    color: gold;
 }
-
+h1 {
+    display: flex;
+    color: orange;
+    justify-content: center;
+}
 .main {
     height: 100%;
 }
@@ -28,10 +34,17 @@ a {
     width: auto;
 }
 .leftPane {
-    width: 25%;
+    width: 35%;
 }
 .rightPane {
-    width: 75%;
+    width: 65%;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Flag_of_Houston%2C_Texas.svg/1280px-Flag_of_Houston%2C_Texas.svg.png");
+    height: 500px;
+    background-size: contain;
+    background-position: center;
+    margin: 5px;
+    border: 5px solid gold;
+    
 }
 .main {
     background-image: url("https://cdn.explara.com/houston-texas20180501172017.jpg");
@@ -39,4 +52,5 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
 }
