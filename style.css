@@ -33,6 +33,10 @@ h1 {
     display: flex;
     width: auto;
 }
+.social {
+    display: flex;
+    justify-content: center;
+}
 .leftPane {
     width: 35%;
 }
@@ -52,5 +56,11 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height: 700px;
+}
+.thumbnail-image {
+    width: 500px;
+    border: 3px dashed gold;
+    padding: 3px;
+    margin: 7px;
 }
