@@ -9,12 +9,23 @@ body {
 }
 a {
     text-decoration: none;
-    color: gold;
+    color: #ffc34d;
+    font-family: 'Niramit', sans-serif;
 }
 h1 {
     display: flex;
-    color: orange;
+    color: #ff8000;
     justify-content: center;
+    font-family: 'Niramit', sans-serif;
+}
+h2 {
+    color: #80bfff;
+    text-align: center;
+    font-family: 'Niramit', sans-serif;
+}
+li {
+    color: gold;
+    font-family: 'Niramit', sans-serif;
 }
 .main {
     height: 100%;
@@ -38,17 +49,16 @@ h1 {
     justify-content: center;
 }
 .leftPane {
-    width: 35%;
+    width: 50%;
+    margin: 10px 35px;
 }
 .rightPane {
-    width: 65%;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Flag_of_Houston%2C_Texas.svg/1280px-Flag_of_Houston%2C_Texas.svg.png");
-    height: 500px;
+    width: 50%;
+    background-image: url("https://res.cloudinary.com/sagacity/image/upload/c_crop,h_1198,w_2002,x_0,y_0/c_limit,f_auto,fl_lossy,q_80,w_1080/michael_rodriguez_houston_flag_shzcsq.jpg");
     background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
     margin: 5px;
-    border: 5px solid gold;
-    
 }
 .main {
     background-image: url("https://cdn.explara.com/houston-texas20180501172017.jpg");
@@ -56,11 +66,16 @@ h1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
 }
 .thumbnail-image {
     width: 500px;
+    height: 300px;
     border: 3px dashed gold;
     padding: 3px;
-    margin: 7px;
+    margin: 30px 7px;
+}
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
